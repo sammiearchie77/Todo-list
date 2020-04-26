@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="En-Us">
+<head>
+	<title>Todo-List</title>
+	<link href="fonts.googleapis.com/css?family=Poppings&display=swap" rel="stylesheet"> <!-- google font #poppins -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+	integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" /> <!-- linked icon -->
+	<link rel="stylesheet" type="text/css" href="Style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<header id="header">Sam's To-Do List</header>
+	<p>My First JavaScript interactive Web Page.</p>
+
+	<button id="toggleList">Hide List</button>
+
+	<div class="list">
+		<p class="description">Things that are purple:</p>
+		<input type="text" name="description" />
+		<button class="description">Change list description
+		<i class="fas fa-plus-square"></i></button>
+
+		<ul>
+			<li>Check my Mails</li>
+			<li>Write Codes, Refactor and Review Codes</li>
+			<li>Check messages on Slack</li>
+			<li>Read all JavaScript articles</li>
+		</ul>
+		<input type="text" name="addItemInput" />
+		<button class="addItemInput">Add item
+		<i class="fas fa-plus-square"></i></button>
+		<button class="removeItemButton">Remove last item		
+		<i class="fas fa-minus-square"></i></button>
+
+	</div>
+
+	<script src="app.js"></script>
+	<div>
+	<footer>
+		&copy; Samuel's First Interactive Website.
+	</footer>
+	</div>
+</body>
+</html>
